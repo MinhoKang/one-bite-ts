@@ -15,7 +15,7 @@ map(arr, (it) => it * 2);
 
 map(["h", "q", "e"], (it) => it.toUpperCase());
 // it은 string으로 추론
-map(["h", "q", "e"], (it) => parseInt(it));
+map(["h", "q", "e"], (it) => parseInt(it)); // error
 // it은 string으로 추론.
 // 따라서 parseInt메서드를 사용할 수 없음
 
